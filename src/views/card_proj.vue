@@ -1,7 +1,7 @@
 <template>
   <div class="items-center flex flex-col justify-center cursor-default group ">
     <div
-      class="w-96 text-base m-3 text-left p-3 border border-gray-100 rounded-md  hover:-translate-y-4 transition-all ease-in  overflow-hidden shadow-lg backdrop-blur-2xl "
+      class="w-96  text-base m-3 text-left p-3 border border-gray-100 rounded-md  hover:-translate-y-4 transition-all ease-in  overflow-hidden shadow-lg backdrop-blur-2xl "
     >
       <div class="text-3xl p-2 flex justify-between">
         <svg
@@ -36,7 +36,7 @@
           <!-- link -->
           <svg
 
-          
+
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6 hover:stroke-purple-500 scale-105 transition-all cursor-pointer"
             fill="none"
@@ -53,10 +53,8 @@
         </div>
       </div>
       <div class="text-3xl">{{ title1 }}</div>
-      <div class="text-black">
-        I'm a software engineer and artist based in Toronto. I have great
-        interest in full-stack development, artificial intelligence,
-        human-computer interactions, and everything in between.
+      <div class="  mt-2 text-black">
+       {{description}}
       </div>
 
       <div class="my-3 text-sm font-normal">
@@ -69,6 +67,14 @@
     </div>
   </div>
 </template>
+
+
+// to do 
+
+// add link to github  and link 
+
+// add desc as props
+
 
 <script>
 export default {

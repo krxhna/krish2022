@@ -1,7 +1,7 @@
 <template>
   <div class="items-center flex flex-col justify-center">
     <div
-      class="w-96 text-base m-3 text-left p-3 border border-gray-100 rounded-md overflow-hidden shadow-lg backdrop-blur-lg"
+      class="w-96 text-base m-3  text-left p-3 border border-gray-100 rounded-md overflow-hidden shadow-lg backdrop-blur-lg"
     >
       <div class="text-3xl">/ about me</div>
       <div class="text-black">
@@ -10,7 +10,7 @@
         human-computer interactions, and everything in between.
       </div>
       <div class="text-black mt-8 flex flex-col">
-        fdasfa
+        Here are some technologies I have been working with:
 
         <div class="grid grid-cols-3">
           <div class="flex my-2 items-center gap-2">
